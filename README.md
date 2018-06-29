@@ -1,6 +1,6 @@
 # Capstone Project Description
 
-What problem does your project solve?
+*What problem does your project solve?*
 
 My project is meant to give the average person a way to be compensated for being a social influencer on the internet. It also allows content creators to get paid organic traffic to their content.
 
