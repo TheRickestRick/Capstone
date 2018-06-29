@@ -28,11 +28,11 @@ I plan on using Angular.js, express, knex, html/css, and some other technology t
 
 **Prioritized Feature list (Label stretch features with STRETCH)**
 
--Business side login and account creation.
--User side login and account creation.
--Business campaign creation and tracking.
--Create a unique widget for each campaign that the business can put next to their content to notify users that they can be rewarded for sharing.
--a user dashboard where the person sharing can see what links they have sent traffic to and the amount of traffic they have directed to the content.
+1.Business side login and account creation.
+2.User side login and account creation.
+3.Business campaign creation and tracking.
+4.Create a unique widget for each campaign that the business can put next to their content to notify users that they can be rewarded for sharing.
+5.a user dashboard where the person sharing can see what links they have sent traffic to and the amount of traffic they have directed to the content.
 
 
 
