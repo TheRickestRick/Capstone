@@ -1,0 +1,32 @@
+{
+  "name": "capstone",
+  "version": "1.0.0",
+  "description": "**What problem does your project solve?**",
+  "main": "app/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheRickestRick/Capstone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheRickestRick/Capstone/issues"
+  },
+  "homepage": "https://github.com/TheRickestRick/Capstone#readme",
+  "dependencies": {
+    "bcrypt-as-promised": "^1.1.0",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "express-sessions": "^1.0.6",
+    "knex": "^0.15.0",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.17.5",
+    "pg": "^7.4.3",
+    "serve-favicon": "^2.5.0"
+  }
+}
