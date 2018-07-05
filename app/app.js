@@ -4,7 +4,7 @@ const favicon = require('serve-favicon');
 const logger = require('morgan');
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
-const session = require('express-sessions');
+const session = require('express-session');
 const PORT = process.env.PORT || 3000
 
 
@@ -17,14 +17,14 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(cookieParser())
 
-const promoters = require('./routes/promoters')
-
-app.use('/promoters', promoters)
+// const promoters = require('./routes/promoters')
+//
+// app.use('/promoters', promoters)
 
 // app.use('/', require('./routes/promoters'))
 
 app.use('/', (req, res)=>{
-  res.sendfile('./public/login.html', { root : __dirname})
+  res.sendFile('./public/index.html', { root : __dirname})
 });
 
 app.listen(PORT, () => {
