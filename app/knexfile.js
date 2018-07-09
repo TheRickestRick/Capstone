@@ -1,5 +1,5 @@
 // Update with your config settings.
-
+console.log(process.env.DATABASE_URL);
 module.exports = {
   development: {
     client: 'pg',
@@ -17,8 +17,5 @@ module.exports = {
       password: 'password',
       database: process.env.DATABASE_URL
     },
-    migrations: {
-      tableName: 'knex_migrations'
-    }
   }
 };
