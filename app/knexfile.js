@@ -9,5 +9,14 @@ module.exports = {
     migrations: {
       tableName: 'knex_migrations'
     }
+  },
+  production: {
+    client: 'pg',
+    connection: {
+      database: process.env.DATABASE_URL || 'ViralShare'
+    },
+    migrations: {
+      tableName: 'knex_migrations'
+    }
   }
 };
