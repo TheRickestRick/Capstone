@@ -1,12 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const bcrypt = require('bcrypt-as-promised');
-const knex = require('knex') ({
-    client: 'pg',
-    connection: {
-      database: process.env.DATABASE_URL || 'ViralShare',
-    },
-});
+const knex = require('../db/knex')
 const saltRounds = 12;
 
 router.post('/signup', (req, res, next) => {
