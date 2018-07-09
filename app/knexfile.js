@@ -13,6 +13,8 @@ module.exports = {
   production: {
     client: 'pg',
     connection: {
+      user: '',
+      password: 'password'
       database: process.env.DATABASE_URL
     },
     migrations: {
