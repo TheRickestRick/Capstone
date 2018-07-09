@@ -4,32 +4,35 @@
   angular.module('app')
     .config(config)
 
+
+
   config.$inject = ['$stateProvider', '$urlRouterProvider', '$locationProvider']
 
   function config($stateProvider, $urlRouterProvider, $locationProvider){
-    $locationProvider.html5Mode(true)
+    $locationProvider.html5Mode(true);
+    $urlRouterProvider.otherwise('/');
 
     $stateProvider
       .state({
-        name: 'app',
-        abstract: true,
-        component: 'app',
-      })
-      .state({
-        name: 'app.dashboard',
+        name: 'home',
         url: '/',
-        component: 'dashboard',
+        component: 'home',
       })
       .state({
-        name: 'app.login',
-        url: '/login',
-        component: 'login',
+        name: 'create',
+        url: '/create',
+        component: 'create',
       })
-      .state({
-        name: 'app.signup',
-        url: '/signup',
-        component: 'signUp',
-      })
+      // .state({
+      //   name: 'home.login',
+      //   url: '/login',
+      //   component: 'login',
+      // })
+      // .state({
+      //   name: 'signup',
+      //   url: '/signup',
+      //   component: 'signup',
+      // })
   }
 
 }());
