@@ -9,11 +9,7 @@ router.post('/signup', (req, res, next) => {
     .where('user_name', req.body.user_name)
     .first()
     .then((promoter) => {
-      if(promoter){
-        res.send('User alredy exists!')
-      } else {
-        return promoter;
-      }
+      return promoter
     })
     .then((promoter) => {
       return bcrypt.hash(req.body.password, saltRounds)
@@ -28,8 +24,10 @@ router.post('/signup', (req, res, next) => {
       .returning('*')
       .then( (promoter) => {
         req.session.user_id = promoter.id;
-        // console.log(req.session)
-        res.send('Booyah')
+        res.json({
+          id: promoter.id,
+          user_name: promoter.user_name,
+        })
       })
     })
   });
@@ -58,8 +56,6 @@ router.post('/signup', (req, res, next) => {
   })
 
   router.delete('/logout', (req, res) => {
-    console.log('test',req.session);
-    console.log('testest',req.session.user_id);
     req.session = null;
     res.redirect('/');
   });

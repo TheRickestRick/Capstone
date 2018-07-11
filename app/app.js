@@ -26,6 +26,7 @@ app.use(session({
   saveUninitialized: true,
 }))
 
+app.use('/api/campaigns', require('./routes/campaigns'))
 app.use('/api/promoters', require('./routes/promoters'))
 
 app.use('*', function(req, res, next) {

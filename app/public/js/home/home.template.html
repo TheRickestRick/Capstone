@@ -6,8 +6,8 @@
             <li class="uk-active" ng-if='$ctrl.loggedIn'>
                 <a href="layouts_frontpage.html">Home</a>
             </li>
-            <li ng-click='$ctrl.toggleCampaign'>
-                <a ui-sref="create">Create</a>
+            <li ng-if='$ctrl.loggedIn' >
+                <a ng-click='$ctrl.showCampaignForm()'>Create</a>
             </li>
             <li ng-if='$ctrl.loggedIn'>
                 <a ng-click="$ctrl.logOut()">Log Out</a>
@@ -71,22 +71,39 @@
 
   </div>
 
+<div ng-if="$ctrl.campaignFormActive" class="uk-grid" data-uk-grid-margin>
+    <div class="uk-width-medium-1-1">
+      <h2>Create Campaign</h2>
+      <form ng-submit="$ctrl.createCampaign()">
+        <input type="text"  placeholder="URL" ng-model="$ctrl.campaign.url">
+        <br>
+        <input type="text"  placeholder="Budget" ng-model="$ctrl.campaign.budget_remaining">
+        <br>
+        <input type="text"  placeholder="Max bid per Click" ng-model="$ctrl.campaign.maxcpc">
+        <br>
+        <button type="submit" >Create</button>
+      </form>
+    </div>
+</div>
+
 
 <div class="uk-grid" data-uk-grid-margin ng-if='$ctrl.loggedIn' >
     <div class="uk-width-medium-1-1">
-      <h2>Active Campagins</h2>
+      <h2>Active Campaigns</h2>
     <table>
       <tr>
         <th>URL</th>
         <th>Total Views</th>
+        <th>Max CPC</th>
         <th>Budget Remaining</th>
         <th>Campaign Page</th>
       </tr>
-      <tr ng-repeat="campaign in $ctrl.campagins">
+      <tr ng-repeat="campaign in $ctrl.campaigns">
         <td>{{campaign.url}}</td>
-        <td>{{campaign.total_views}}</td>
-        <td>{{campaign.remaining_budget}}</td>
-        <td><a ui-sref=`/${id}/view`>View</a></td>
+        <td>{{campaign.total_clicks}}</td>
+        <td>{{campaign.maxcpc}}</td>
+        <td>{{campaign.budget_remaining}}</td>
+        <td><a>View</a></td>
       </tr>
     </table>
     </div>

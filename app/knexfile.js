@@ -1,5 +1,5 @@
 // Update with your config settings.
-console.log(process.env.DATABASE_URL);
+
 module.exports = {
   development: {
     client: 'pg',

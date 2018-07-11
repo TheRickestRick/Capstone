@@ -18,11 +18,11 @@
         url: '/',
         component: 'home',
       })
-      .state({
-        name: 'create',
-        url: '/create',
-        component: 'create',
-      })
+      // .state({
+      //   name: 'create',
+      //   url: '/create',
+      //   component: 'create',
+      // })
       // .state({
       //   name: 'home.login',
       //   url: '/login',
