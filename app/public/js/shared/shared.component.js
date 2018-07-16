@@ -18,7 +18,6 @@
       .then((campaign)=>{
         $http.patch('/api/campaigns', campaign.data)
         .then((campaign)=>{
-          console.log(campaign.data[0])
           window.location.replace(campaign.data[0].url)
         })
       })
