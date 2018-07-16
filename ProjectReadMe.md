@@ -26,7 +26,7 @@ The project was built over a two week timeline, and there were a number of chall
 
 When a promoter logs in they can drop down, an form to input their campaign information. They will then see a table populated with all of the campaigns they have created.
 
-![alt text]('https://github.com/TheRickestRick/Capstone/blob/master/ScreenShots/Screen%20Shot%202018-07-16%20at%203.26.01%20PM.png')
+![alt text](https://github.com/TheRickestRick/Capstone/blob/master/ScreenShots/Screen%20Shot%202018-07-16%20at%203.26.01%20PM.png)
 
 They will have acces to a share widget that they can add to their website, and it should redirect influencers to the influencer login page.
 
