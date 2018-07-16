@@ -20,11 +20,7 @@ app.use(express.static('node_modules'))
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(cookieParser())
-app.use(session({
-  secret: 'keyboard cat',
-  resave: false,
-  saveUninitialized: true,
-}))
+
 
 app.use('/api/campaigns', require('./routes/campaigns'))
 app.use('/api/promoters', require('./routes/promoters'))

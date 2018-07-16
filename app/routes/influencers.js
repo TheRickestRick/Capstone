@@ -24,7 +24,6 @@ router.post('/signup', (req, res, next) => {
       })
       .returning('*')
       .then( (influencer) => {
-        req.session.user_id = influencer.id;
         res.json({
           id: influencer.id,
           first_name: influencer.first_name,
@@ -45,7 +44,6 @@ router.post('/login', (req, res, next) => {
       } else {
         bcrypt.compare(req.body.password, influencer.password)
           .then((success) => {
-            req.session.user_id = influencer.id
             res.json({
               id: influencer.id,
               first_name: influencer.first_name,
@@ -60,7 +58,6 @@ router.post('/login', (req, res, next) => {
 
 
 router.delete('/logout', (req, res) => {
-  req.session = null;
   res.redirect('/');
 });
 
@@ -76,25 +73,6 @@ router.post('/activateLink/:id', (req, res) => {
     .then((campaign) =>{
       res.send('booyah')
     })
-  // .where('campaign_id', req.body.id)
-  // .first()
-  // .then((campaign) => {
-  //     if (!campaign_id) {
-  //       .insert({
-  //         campaign_url: req.body.url,
-  //         clicks:0,
-  //         total_earned: 0,
-  //         influencer_id: req.params.id,
-  //         campaign_id: req.body.id
-  //       })
-  //     }
-  //     else {
-  //       console.log("Already active!")
-  //     }
-  //   })
-
-  console.log(req.params.id)
-  console.log(req.body)
 
 })
 

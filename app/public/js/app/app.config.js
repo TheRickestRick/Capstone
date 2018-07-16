@@ -28,11 +28,6 @@
         url: `/shared/:campaign_id/:influencer_id`,
         component: 'shared',
       })
-      // .state({
-      //   name: 'signup',
-      //   url: '/signup',
-      //   component: 'signup',
-      // })
   }
 
 }());

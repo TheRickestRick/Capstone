@@ -17,24 +17,20 @@
     vm.influencerlogOut = influencerlogOut
     vm.showSharedLinks = showSharedLinks
     vm.toggleInfluencerSignUp = toggleInfluencerSignUp
-    vm.talluTotalPoints = tallyTotalPoints
+    vm.tallyTotalPoints = tallyTotalPoints
     vm.activateLink = activateLink;
     let isInfluencerLoggedIn;
     let influencerUserInfo;
     vm.influencerUserObj;
 
-
     function onInit() {
       influencerUserInfo = window.localStorage.getItem('influencer')
       vm.influencerUserObj = JSON.parse(influencerUserInfo)
-      // console.log(vm.influencerUserObj.id)
-      showSharedLinks()
-
       vm.influencerSignUpToggled = false
       vm.isInfluencerLoggedIn = window.localStorage.getItem('isInfluencerLoggedIn') ? true : false
-
+      showSharedLinks()
+      tallyTotalPoints()
     }
-
 
     function createInfluencerAccount() {
       $http.post('/api/influencers/signup', vm.influencerCreate)
@@ -75,15 +71,25 @@
     }
 
     function activateLink(campaign) {
-      console.log(campaign)
       $http.post(`api/influencers/activateLink/${vm.influencerUserObj.id}`, campaign)
     }
 
     function tallyTotalPoints() {
-
+      $http.get(`api/shared/${vm.influencerUserObj.id}`)
+        .then(response => response.data)
+        .then( campaigns_shared => {
+          vm.totalInfluencerPoints = 0;
+          vm.campaigns.forEach( campaign => {
+            campaign.total_pts = 0;
+            for (var i = 0; i < campaigns_shared.length; i++) {
+              if (campaign.id === campaigns_shared[i].campaign_id) {
+                campaign.total_pts  += campaign.maxcpc * campaigns_shared[i].clicks
+                vm.totalInfluencerPoints += campaign.total_pts
+              }
+            }
+          })
+        })
     }
-
-
 
   }
 

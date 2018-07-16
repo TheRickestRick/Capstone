@@ -23,7 +23,6 @@ router.post('/signup', (req, res, next) => {
       })
       .returning('*')
       .then( (promoter) => {
-        req.session.user_id = promoter.id;
         res.json({
           id: promoter.id,
           user_name: promoter.user_name,
@@ -42,7 +41,6 @@ router.post('/signup', (req, res, next) => {
         } else {
           bcrypt.compare(req.body.password, promoter.password)
             .then((success) => {
-              req.session.user_id = promoter.id
               res.json({
                 id: promoter.id,
                 user_name: promoter.user_name,
@@ -56,7 +54,6 @@ router.post('/signup', (req, res, next) => {
   })
 
   router.delete('/logout', (req, res) => {
-    req.session = null;
     res.redirect('/');
   });
 

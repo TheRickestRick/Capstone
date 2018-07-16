@@ -21,5 +21,14 @@ router.post('/:campaign_id/:influencer_id', (req, res) => {
   })
 })
 
+router.get(`/:influencer_id`, (req, res) => {
+  knex('campaigns_shared')
+  .where(`influencer_id`, req.params.influencer_id)
+  .returning('*')
+  .then((response)=>{
+    res.json(response)
+  })
+})
+
 
 module.exports = router

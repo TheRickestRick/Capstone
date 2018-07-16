@@ -6,9 +6,6 @@
             <li class="uk-active" ng-if='$ctrl.loggedIn'>
                 <a href="layouts_frontpage.html">Home</a>
             </li>
-            <!-- <li ng-if='$ctrl.isInfluencerloggedIn' >
-                <a>Total Points:</a>
-            </li> -->
             <li ng-if='$ctrl.isInfluencerLoggedIn'>
                 <a ng-click="$ctrl.influencerlogOut()">Log Out</a>
             </li>
@@ -40,8 +37,6 @@
       </div>
 
   </div>
-
-
 
 
   <div class="uk-vertical-align uk-text-center uk-height-1-1" ng-if="!$ctrl.isInfluencerLoggedIn && $ctrl.influencerSignUpToggled">
@@ -77,15 +72,11 @@
 </div>
 
 
-
-
-
-
 <div class="uk-grid" data-uk-grid-margin ng-if='$ctrl.isInfluencerLoggedIn' >
 
     <div class="uk-width-medium-1-1">
 
-      <h2>Total Points: </h2>
+      <h2>Total Points: {{ $ctrl.totalInfluencerPoints }}</h2>
       <h2>Shareable Links</h2>
 
       <table ng-repeat="campaign in $ctrl.campaigns">
@@ -95,6 +86,7 @@
           <th>Total Views</th>
           <th>Max CPC</th>
           <th>Budget Remaining</th>
+          <th>Total Earned</th>
           <th>Activate Link</th>
         </tr>
 
@@ -104,6 +96,7 @@
           <td>{{campaign.total_clicks}}</td>
           <td>{{campaign.maxcpc}}</td>
           <td>{{campaign.budget_remaining}}</td>
+          <td>{{campaign.total_pts}}</td>
           <td> <a ng-click="$ctrl.activateLink(campaign)">Activate</a></td>
         </tr>
       </table>
