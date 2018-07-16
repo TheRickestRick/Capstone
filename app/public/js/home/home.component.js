@@ -26,10 +26,10 @@
     function onInit() {
       userInfo = window.localStorage.getItem('user')
       userObj = JSON.parse(userInfo)
-      getCampaigns()
       vm.signUpToggled = false
       vm.getURL = false;
       vm.campaignFormActive = false;
+      getCampaigns()
 
       vm.loggedIn = window.localStorage.getItem('isLoggedIn') ? true : false
     }
