@@ -17,7 +17,7 @@
     vm.logOut = logOut
     vm.showCampaignForm = showCampaignForm
     vm.createCampaign = createCampaign
-    vm.showCampaignURL = showCampaignURL
+    // vm.showCampaignURL = showCampaignURL
     vm.toggleSignUp = toggleSignUp
     let loggedIn;
     let userInfo;
@@ -27,10 +27,10 @@
       userInfo = window.localStorage.getItem('user')
       userObj = JSON.parse(userInfo)
       vm.signUpToggled = false
-      vm.getURL = false;
-      vm.campaignFormActive = false;
-      getCampaigns()
 
+      getCampaigns()
+      // vm.getURL = false;
+      vm.campaignFormActive = false;
       vm.loggedIn = window.localStorage.getItem('isLoggedIn') ? true : false
     }
 
@@ -67,9 +67,9 @@
       vm.campaignFormActive = !vm.campaignFormActive
     }
 
-    function showCampaignURL() {
-      vm.getURL = !vm.getURL
-    }
+    // function showCampaignURL() {
+    //   vm.getURL = !vm.getURL
+    // }
 
     function toggleSignUp() {
       vm.signUpToggled = !vm.signUpToggled
