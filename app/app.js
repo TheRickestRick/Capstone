@@ -28,6 +28,8 @@ app.use(session({
 
 app.use('/api/campaigns', require('./routes/campaigns'))
 app.use('/api/promoters', require('./routes/promoters'))
+app.use('/api/influencers', require('./routes/influencers'))
+app.use('/api/shared', require('./routes/shared'))
 
 app.use('*', function(req, res, next) {
   res.sendFile('index.html', {root: path.join(__dirname, 'public')})

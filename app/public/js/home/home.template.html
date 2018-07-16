@@ -19,10 +19,10 @@
 
 <div class="uk-flex uk-flex-center">
 
-    <div class="uk-vertical-align uk-text-center uk-height-1-1" ng-if='!$ctrl.loggedIn'>
+    <div class="uk-vertical-align uk-text-center uk-height-1-1" ng-if='!$ctrl.loggedIn && !$ctrl.signUpToggled'>
         <div class="uk-vertical-align-middle" style="width: 250px;">
 
-            <h3>Login</h3>
+            <h3> Promoter Login</h3>
 
             <form class="uk-panel uk-panel-box uk-form" ng-submit="$ctrl.login()">
                 <div class="uk-form-row">
@@ -34,6 +34,7 @@
                 <div class="uk-form-row">
                     <button type="submit" class="uk-width-1-1 uk-button uk-button-primary uk-button-large">Login</button>
                 </div>
+                <p>Don't have an account? <a href="#" ng-click="$ctrl.toggleSignUp()">Sign-up!</a></p>
             </form>
 
         </div>
@@ -43,10 +44,10 @@
 
 
 
-    <div class="uk-vertical-align uk-text-center uk-height-1-1" ng-if='!$ctrl.loggedIn'>
+    <div class="uk-vertical-align uk-text-center uk-height-1-1" ng-if='!$ctrl.loggedIn && $ctrl.signUpToggled'>
         <div class="uk-vertical-align-middle" style="width: 250px;">
 
-            <h3>Sign-Up</h3>
+            <h3>Promoter Sign-Up</h3>
 
             <form class="uk-panel uk-panel-box uk-form" ng-submit="$ctrl.createAccount()">
                 <div class="uk-form-row">
@@ -64,6 +65,7 @@
                 <div class="uk-form-row">
                     <button type="submit" class="uk-width-1-1 uk-button uk-button-primary uk-button-large">Create</button>
                 </div>
+                <p>Already have an account? <a href="" ng-click="$ctrl.toggleSignUp()">Login!</a></p>
             </form>
 
         </div>
@@ -87,23 +89,45 @@
 </div>
 
 
+
+
+
+
+
 <div class="uk-grid" data-uk-grid-margin ng-if='$ctrl.loggedIn' >
+
+
+
     <div class="uk-width-medium-1-1">
       <h2>Active Campaigns</h2>
-    <table>
+    <table ng-repeat="campaign in $ctrl.campaigns">
       <tr>
         <th>URL</th>
         <th>Total Views</th>
         <th>Max CPC</th>
         <th>Budget Remaining</th>
-        <th>Campaign Page</th>
+        <th>Avg. CPC</th>
       </tr>
-      <tr ng-repeat="campaign in $ctrl.campaigns">
+
+      <tr >
         <td>{{campaign.url}}</td>
         <td>{{campaign.total_clicks}}</td>
         <td>{{campaign.maxcpc}}</td>
         <td>{{campaign.budget_remaining}}</td>
-        <td><a>View</a></td>
+        <td>.06</td>
+      </tr>
+      <tr>
+        <td>
+          <p>Add this code to your website!</p>
+          <code>
+            &ltscript src=''/>
+          </code>
+          <pre>
+            <code>
+              &ltbutton  id="widget" onclick="myFunction()">Share This!&lt/button&gt
+            </code>
+          </pre>
+        </td>
       </tr>
     </table>
     </div>

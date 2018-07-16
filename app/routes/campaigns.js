@@ -4,7 +4,6 @@ const knex = require('../db/knex')
 
 
 router.post('/create/:id', (req, res, next) => {
-  // console.log(req.params.id)
   knex('campaigns')
     .insert(params(req))
     .returning('*')
@@ -13,13 +12,35 @@ router.post('/create/:id', (req, res, next) => {
 })
 
 router.get('/:id', (req, res, next) => {
-  // console.log(req.params.id)
   knex('campaigns')
   .where('promoter_id', req.params.id)
     .then(campaigns => {
         res.json(campaigns)
       })
     .catch(err => next(err))
+})
+
+router.get('/', (req, res, next) => {
+  knex('campaigns')
+    .returning('*')
+      .then(campaigns => {
+        res.json(campaigns)
+      })
+    .catch(err => next(err))
+})
+
+router.patch('/', (req, res, next) => {
+  knex('campaigns')
+  .where('id', req.body.campaign_id)
+  .first()
+  .update('total_clicks', req.body.clicks)
+  .update({
+    'budget_remaining': knex.raw('budget_remaining - (total_clicks * maxcpc)')
+  })
+  .returning('*')
+  .then((campaign)=>{
+    res.json(campaign)
+  })
 })
 
 

@@ -17,6 +17,8 @@
     vm.logOut = logOut
     vm.showCampaignForm = showCampaignForm
     vm.createCampaign = createCampaign
+    vm.showCampaignURL = showCampaignURL
+    vm.toggleSignUp = toggleSignUp
     let loggedIn;
     let userInfo;
     let userObj;
@@ -24,9 +26,9 @@
     function onInit() {
       userInfo = window.localStorage.getItem('user')
       userObj = JSON.parse(userInfo)
-      console.log(userObj.id)
       getCampaigns()
-
+      vm.signUpToggled = false
+      vm.getURL = false;
       vm.campaignFormActive = false;
 
       vm.loggedIn = window.localStorage.getItem('isLoggedIn') ? true : false
@@ -49,6 +51,7 @@
         window.localStorage.setItem('isLoggedIn', 'true')
         vm.loggedIn = true;
         delete vm.promoterLogin
+        onInit()
       })
     }
 
@@ -60,8 +63,16 @@
         .then( done => {})
     }
 
-    function showCampaignForm(){
+    function showCampaignForm() {
       vm.campaignFormActive = !vm.campaignFormActive
+    }
+
+    function showCampaignURL() {
+      vm.getURL = !vm.getURL
+    }
+
+    function toggleSignUp() {
+      vm.signUpToggled = !vm.signUpToggled
     }
 
     function createCampaign() {
@@ -73,7 +84,6 @@
     }
 
     function getCampaigns() {
-      console.log(userObj)
       $http.get(`/api/campaigns/${userObj.id}`)
         .then(response => vm.campaigns = response.data)
     }

@@ -18,16 +18,16 @@
         url: '/',
         component: 'home',
       })
-      // .state({
-      //   name: 'create',
-      //   url: '/create',
-      //   component: 'create',
-      // })
-      // .state({
-      //   name: 'home.login',
-      //   url: '/login',
-      //   component: 'login',
-      // })
+      .state({
+        name: 'influencer',
+        url: '/influencer',
+        component: 'influencer',
+      })
+      .state({
+        name: 'shared',
+        url: `/shared/:campaign_id/:influencer_id`,
+        component: 'shared',
+      })
       // .state({
       //   name: 'signup',
       //   url: '/signup',
