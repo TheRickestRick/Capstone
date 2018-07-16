@@ -33,10 +33,10 @@ router.patch('/', (req, res, next) => {
   knex('campaigns')
   .where('id', req.body.campaign_id)
   .first()
-  .update('total_clicks', req.body.clicks)
   .update({
     'budget_remaining': knex.raw('budget_remaining - (total_clicks * maxcpc)')
   })
+  .update('total_clicks', req.body.clicks)
   .returning('*')
   .then((campaign)=>{
     res.json(campaign)
