@@ -40,8 +40,7 @@ The influencer will then be redirected to the sign in page.
 When an influence logs in they will see all of the active campaigns, and the URL that they are connected to.
 ![alt text](https://github.com/TheRickestRick/Capstone/blob/master/ScreenShots/Screen%20Shot%202018-07-16%20at%203.39.35%20PM.png)
 
-The influence can then activate the campaign, and share the link across their social networks.
-![alt text](https://github.com/TheRickestRick/Capstone/blob/master/ScreenShots/Screen%20Shot%202018-07-16%20at%203.39.35%20PM.png)
+The influence can then activate the campaign, share the link across their social networks, and earn points for all of the traffic the send!
 
 
 
