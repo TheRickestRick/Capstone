@@ -28,14 +28,19 @@ A Promoter must login to their account via the login screen.
 ![alt text](https://github.com/TheRickestRick/Capstone/blob/master/ScreenShots/Screen%20Shot%202018-07-16%20at%203.26.01%20PM.png)
 
 When a promoter logs in they can drop down, an form to input their campaign information. They will then see a table populated with all of the campaigns they have created.
-![alt text] (https://github.com/TheRickestRick/Capstone/blob/master/ScreenShots/Screen%20Shot%202018-07-16%20at%203.35.52%20PM.png)
-
+![alt text](https://github.com/TheRickestRick/Capstone/blob/master/ScreenShots/Screen%20Shot%202018-07-16%20at%203.35.52%20PM.png)
 
 They will have acces to a share widget that they can add to their website, and it should redirect influencers to the influencer login page.
+![alt text](https://github.com/TheRickestRick/Capstone/blob/master/ScreenShots/Screen%20Shot%202018-07-16%20at%203.40.39%20PM.png)
+
+The influencer will then be redirected to the sign in page.
+![alt text](https://github.com/TheRickestRick/Capstone/blob/master/ScreenShots/Screen%20Shot%202018-07-16%20at%203.39.42%20PM.png)
 
 When an influence logs in they will see all of the active campaigns, and the URL that they are connected to.
+![alt text](https://github.com/TheRickestRick/Capstone/blob/master/ScreenShots/Screen%20Shot%202018-07-16%20at%203.39.35%20PM.png)
 
 The influence can then activate the campaign, and share the link across their social networks.
+![alt text](https://github.com/TheRickestRick/Capstone/blob/master/ScreenShots/Screen%20Shot%202018-07-16%20at%203.35.52%20PM.png)
 
 
 
