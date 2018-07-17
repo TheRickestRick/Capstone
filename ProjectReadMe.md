@@ -18,10 +18,26 @@ The project was built over a two week timeline, and there were a number of chall
  
  - Re-learning the AngularJS framework, and building out my MVC designs. I hadn't touched AngularJS in over a month, so when I sat down to start writing I was a little rusty. I just started reading, and watching videos, and I quickly picked it back up, and built out my templates, and components.
  
+
+## Built With
+
+<img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="alt text" width="25%" height="25%">
+
+<img src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png" alt="alt text" width="25%" height="25%">
+
+<img src="https://knexjs.org/assets/images/knex.png" alt="alt text" width="25%" height="25%">
+
+<img src="https://amandeepmittal.gallerycdn.vsassets.io/extensions/amandeepmittal/expressjs/2.0.0/1509881293872/Microsoft.VisualStudio.Services.Icons.Default" alt="alt text" width="25%" height="25%">
+
+<img src="https://www.vectorlogo.zone/logos/heroku/heroku-card.png" alt="alt text" width="25%" height="25%">
+
+
+
  ## How it Works
 A content promoter can create a campaign by providing a URL to the content that they want to be shared and promoted. The promoter than can refresh their campaign list, and add the share widget button to their website. This button will allow influencers to click on the button, and be taken to the influencer login page. 
 The influencer will then be prompted to create an account if they have not already. 
 Once they get logged in they can see a list of active campaigns. They click the activate button, and then post the link somewhere where people will click on it.
+
 
 ## Features
 A Promoter must login to their account via the login screen.
@@ -39,22 +55,6 @@ The influencer can then sign in.
 
 When an influence logs in they will see all of the active campaigns, and the URL that they are promoting.
 ![alt text](https://github.com/TheRickestRick/Capstone/blob/master/ScreenShots/Screen%20Shot%202018-07-16%20at%203.39.35%20PM.png)
-
-The influence can then activate the campaign, share the link across their social networks, and earn points for all of the traffic the send!
-
-
-
-## Built With
-
-<img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="alt text" width="25%" height="25%">
-
-<img src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png" alt="alt text" width="25%" height="25%">
-
-<img src="https://knexjs.org/assets/images/knex.png" alt="alt text" width="25%" height="25%">
-
-<img src="https://amandeepmittal.gallerycdn.vsassets.io/extensions/amandeepmittal/expressjs/2.0.0/1509881293872/Microsoft.VisualStudio.Services.Icons.Default" alt="alt text" width="25%" height="25%">
-
-<img src="https://www.vectorlogo.zone/logos/heroku/heroku-card.png" alt="alt text" width="25%" height="25%">
 
 
 ## Authors
