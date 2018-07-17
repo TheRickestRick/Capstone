@@ -31,31 +31,12 @@ The project was built over a two week timeline, and there were a number of chall
 
 <img src="https://www.vectorlogo.zone/logos/heroku/heroku-card.png" alt="alt text" width="25%" height="25%">
 
-
-
- ## How it Works
-A content promoter can create a campaign by providing a URL to the content that they want to be shared and promoted. The promoter than can refresh their campaign list, and add the share widget button to their website. This button will allow influencers to click on the button, and be taken to the influencer login page. 
-The influencer will then be prompted to create an account if they have not already. 
-Once they get logged in they can see a list of active campaigns. They click the activate button, and then post the link somewhere where people will click on it.
-
-
-## Features
-A Promoter must login to their account via the login screen.
-![alt text](https://github.com/TheRickestRick/Capstone/blob/master/ScreenShots/Screen%20Shot%202018-07-16%20at%203.26.01%20PM.png)
-
-When a promoter logs in they can drop down a form to input their campaign information. They will then see a table populated with all of the campaigns that they have created.
-![alt text](https://github.com/TheRickestRick/Capstone/blob/master/ScreenShots/Screen%20Shot%202018-07-16%20at%203.35.52%20PM.png)
-
-They will have access to a share widget that they can add to their website, and when clicked it will direct influencers to the influencer login page.
-
-![alt text](https://github.com/TheRickestRick/Capstone/blob/master/ScreenShots/Screen%20Shot%202018-07-16%20at%203.40.39%20PM.png)
-
-The influencer can then sign in.
-![alt text](https://github.com/TheRickestRick/Capstone/blob/master/ScreenShots/Screen%20Shot%202018-07-16%20at%203.39.42%20PM.png)
-
-When an influence logs in they will see all of the active campaigns, and the URL that they are promoting.
-![alt text](https://github.com/TheRickestRick/Capstone/blob/master/ScreenShots/Screen%20Shot%202018-07-16%20at%203.39.35%20PM.png)
-
+## How is works
+Promoters create accounts and sign in.
+They fill out a campaign form, and my app makes a request to the server to create the campaign.
+The share widget code is added to the promoters website, and when clicked redirects you to the influencer side
+Influencers activate campaigns, and share their personalized links across the web.
+When traffic passes through the link the influencer gains points for each click they drive.
 
 ## Authors
 
