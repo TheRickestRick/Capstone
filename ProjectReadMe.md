@@ -46,7 +46,7 @@ The influence can then activate the campaign, share the link across their social
 
 ## Built With
 
-* ![AngularJS](https://angular.io/assets/images/logos/angular/angular.svg){:height="50%" width="50%"}
+<img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="alt text" width="25px" height="25px">
 * [Node]
 * [Knex]
 * [Express]
