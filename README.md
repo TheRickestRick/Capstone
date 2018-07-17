@@ -3,7 +3,7 @@ Click on the image to watch the video demo!
 [![Capstone Video](https://github.com/TheRickestRick/Capstone/blob/master/ScreenShots/Screen%20Shot%202018-07-16%20at%203.35.52%20PM.png)](https://youtu.be/xoNnIZTmAKk)
 
 ## Background
-Vyrl creates widgets to help people promote their online content (e.g. articles, blogs, mobile apps, etc.)  Content promoters simply create a widget that is then set to a certain amount of points. Based on these points, people (influencers) can earn money by sharing the widget link thereby driving more clicks.  Every time a person clicks on an influencers unique link, the influencers account tracks that click and awards points to the influencers account. In the world of online marketing it is often known that if you see a friend or acquaintance share something on social media, people are much more likely to click on it.
+Vyrl creates widgets to help people promote their online content (e.g. articles, blogs, mobile apps, etc.), Content promoters simply create a widget that is then set to a certain amount of points. Based on these points, people (influencers) can earn money by sharing the widget link thereby driving more clicks.  Every time a person clicks on an influencers unique link, the influencers' account tracks that click and awards points to the influencers account. In the world of online marketing it is often known that if you see a friend or acquaintance share something on social media, people are much more likely to click on it.
 
 ### Inspiration
 This project was inspired from me thinking about how social networks should be treated as advertising platforms.
@@ -32,11 +32,20 @@ The project was built over a two week timeline, and there were a number of chall
 <img src="https://www.vectorlogo.zone/logos/heroku/heroku-card.png" alt="alt text" width="25%" height="25%">
 
 ## How is works
-Promoters create accounts and sign in.
-They fill out a campaign form, and my app makes a request to the server to create the campaign.
-The share widget code is added to the promoters website, and when clicked redirects you to the influencer side
-Influencers activate campaigns, and share their personalized links across the web.
-When traffic passes through the link the influencer gains points for each click they drive.
+
+# Promoters create accounts and sign in.
+<img src="https://github.com/TheRickestRick/Capstone/blob/master/ScreenShots/Screen%20Shot%202018-07-16%20at%203.26.01%20PM.png" alt="alt text" width="50%" height="50%">
+
+# They fill out a campaign form, and my app makes a request to the server to create the campaign.
+<img src="https://github.com/TheRickestRick/Capstone/blob/master/ScreenShots/Screen%20Shot%202018-07-16%20at%203.35.52%20PM.png" alt="alt text" width="50%" height="50%">
+
+# The share widget code is added to the promoters website, and when clicked redirects you to the influencer side
+<img src="https://github.com/TheRickestRick/Capstone/blob/master/ScreenShots/Screen%20Shot%202018-07-16%20at%203.40.39%20PM.png" alt="alt text" width="50%" height="50%">
+
+# Influencers activate campaigns, and share their personalized links across the web.
+<img src="https://github.com/TheRickestRick/Capstone/blob/master/ScreenShots/Screen%20Shot%202018-07-16%20at%203.39.35%20PM.png" alt="alt text" width="50%" height="50%">
+
+# When traffic passes through the link the influencer gains points for each click they drive!
 
 ## Authors
 
