@@ -34,16 +34,16 @@ The project was built over a two week timeline, and there were a number of chall
 ## How is works
 
 # Promoters create accounts and sign in.
-<img src="https://github.com/TheRickestRick/Capstone/blob/master/ScreenShots/Screen%20Shot%202018-07-16%20at%203.26.01%20PM.png" alt="alt text" width="90%" height="90%">
+<img src="https://github.com/TheRickestRick/Capstone/blob/master/ScreenShots/Screen%20Shot%202018-07-16%20at%203.26.01%20PM.png" alt="alt text" >
 
 # They fill out a campaign form, and my app makes a request to the server to create the campaign.
-<img src="https://github.com/TheRickestRick/Capstone/blob/master/ScreenShots/Screen%20Shot%202018-07-16%20at%203.35.52%20PM.png" alt="alt text" idth="90%" height="90%">
+<img src="https://github.com/TheRickestRick/Capstone/blob/master/ScreenShots/Screen%20Shot%202018-07-16%20at%203.35.52%20PM.png" alt="alt text" ">
 
 # The share widget code is added to the promoters website, and when clicked redirects you to the influencer side
 <img src="https://github.com/TheRickestRick/Capstone/blob/master/ScreenShots/Screen%20Shot%202018-07-16%20at%203.40.39%20PM.png" alt="alt text" width="50%" height="50%">
 
 # Influencers activate campaigns, and share their personalized links across the web.
-<img src="https://github.com/TheRickestRick/Capstone/blob/master/ScreenShots/Screen%20Shot%202018-07-16%20at%203.39.35%20PM.png" alt="alt text" width="90%" height="90%">
+<img src="https://github.com/TheRickestRick/Capstone/blob/master/ScreenShots/Screen%20Shot%202018-07-16%20at%203.39.35%20PM.png" alt="alt text" >
 
 # When traffic passes through the link the influencer gains points for each click they drive!
 
