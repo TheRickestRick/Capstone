@@ -1,18 +1,20 @@
 # Vyrl
-Vyrl is a way for content creators, and promoters to increase their organic click traffic to their web content.
+[![IMAGE ALT TEXT HERE](https://youtu.be/xoNnIZTmAKk)
 
 ## Background
-This app provides a way for content promoters to create a widget node to add to their content that they fill with points. Thos points convert to money, and influencers can spread the link around the web earning money for all of the clicks they drive.
+This app provides a way for content promoters to create a widget node to add to their content that they fill with points. The points convert to money, and influencers can spread the link around the web earning money for all of the clicks they drive.
 Every time a person clicks on an influencers unique link the influencers account tracks that click and awards points to the influencers account. In the world of online marketing its often known that if you see a friend or acquaintance share something on social media, people are much more likely to click on it.
+
+### Inspiration
+This project was inspired from me thinking about how social networks should be treated as advertising platforms.
+People share stuff on social networks which is like billboard space, except they don't get any compensation for sharing these things. I thought it would be nice if there was a way for people to be compensated for sharing content.
 
 ## How it Works
 A content promoter can create a campaign by providing a URL to the content that they want to be shared and promoted. The promoter than can refresh their campaign list, and add the share widget button to their website. This button will allow influencers to click on the button, and be taken to the influencer login page. 
 The influencer will then be prompted to create an account if they have not already. 
 Once they get logged in they can see a list of active campaigns. They click the activate button, and then post the link somewhere where people will click on it.
 
-### Inspiration
-This project was inspired from me thinking about how social networks should be treated as advertising platforms.
-People share stuff on social networks which is like billboard space, except they don't get any compensation for sharing these things. I thought it would be nice if there was a way for people to be compensated for sharing content.
+
 
 ## Challenges
 The project was built over a two week timeline, and there were a number of challenges encountered. Three of the most interesting ones were:
