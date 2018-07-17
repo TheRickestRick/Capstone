@@ -1,5 +1,5 @@
 # Vyrl
-![linkname](https://youtu.be/xoNnIZTmAKk)
+[![Capstone Video](https://github.com/TheRickestRick/Capstone/blob/master/ScreenShots/Screen%20Shot%202018-07-16%20at%203.35.52%20PM.png)](https://youtu.be/xoNnIZTmAKk)
 
 ## Background
 This app provides a way for content promoters to create a widget node to add to their content that they fill with points. The points convert to money, and influencers can spread the link around the web earning money for all of the clicks they drive.
