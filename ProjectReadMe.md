@@ -46,15 +46,15 @@ The influence can then activate the campaign, share the link across their social
 
 ## Built With
 
-<img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="alt text" width="25px" height="25px">
+<img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="alt text" width="50px" height="50px">
 
-<img src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png" alt="alt text" width="25px" height="25px">
+<img src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png" alt="alt text" width="50px" height="50px">
 
-<img src="https://knexjs.org/assets/images/knex.png" alt="alt text" width="25px" height="25px">
+<img src="https://knexjs.org/assets/images/knex.png" alt="alt text" width="50px" height="50px">
 
 <img src="https://amandeepmittal.gallerycdn.vsassets.io/extensions/amandeepmittal/expressjs/2.0.0/1509881293872/Microsoft.VisualStudio.Services.Icons.Default" alt="alt text" width="25px" height="25px">
 
-<img src="https://www.vectorlogo.zone/logos/heroku/heroku-card.png" alt="alt text" width="25px" height="25px">
+<img src="https://www.vectorlogo.zone/logos/heroku/heroku-card.png" alt="alt text" width="50px" height="50px">
 
 
 ## Authors
