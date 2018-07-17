@@ -1,4 +1,5 @@
 # Vyrl
+Click on the image to watch the video demo! 
 [![Capstone Video](https://github.com/TheRickestRick/Capstone/blob/master/ScreenShots/Screen%20Shot%202018-07-16%20at%203.35.52%20PM.png)](https://youtu.be/xoNnIZTmAKk)
 
 ## Background
