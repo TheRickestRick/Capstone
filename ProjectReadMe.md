@@ -3,8 +3,7 @@ Click on the image to watch the video demo!
 [![Capstone Video](https://github.com/TheRickestRick/Capstone/blob/master/ScreenShots/Screen%20Shot%202018-07-16%20at%203.35.52%20PM.png)](https://youtu.be/xoNnIZTmAKk)
 
 ## Background
-This app provides a way for content promoters to create a widget node to add to their content that they fill with points. The points convert to money, and influencers can spread the link around the web earning money for all of the clicks they drive.
-Every time a person clicks on an influencers unique link the influencers account tracks that click and awards points to the influencers account. In the world of online marketing its often known that if you see a friend or acquaintance share something on social media, people are much more likely to click on it.
+Vyrl creates widgets to help people promote their online content (e.g. articles, blogs, mobile apps, etc.)  Content promoters simply create a widget that is then set to a certain amount of points. Based on these points, people (influencers) can earn money by sharing the widget link thereby driving more clicks.  Every time a person clicks on an influencers unique link, the influencers account tracks that click and awards points to the influencers account. In the world of online marketing it is often known that if you see a friend or acquaintance share something on social media, people are much more likely to click on it.
 
 ### Inspiration
 This project was inspired from me thinking about how social networks should be treated as advertising platforms.
