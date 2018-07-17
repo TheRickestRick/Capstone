@@ -46,7 +46,7 @@ The influence can then activate the campaign, share the link across their social
 
 ## Built With
 
-* [AngularJS]
+* ![AngularJS](https://angular.io/assets/images/logos/angular/angular.svg)
 * [Node]
 * [Knex]
 * [Express]
