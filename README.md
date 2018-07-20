@@ -23,7 +23,7 @@ The project was built over a two week timeline, and there were a number of chall
  
 
 ## Built With
-<p align="center">
+<p  align-items: center; justify-content: center;>
 
 <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="alt text" width="25%" height="25%">
 
