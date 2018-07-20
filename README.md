@@ -32,7 +32,7 @@ The project was built over a two week timeline, and there were a number of chall
   </tr>
   <tr>
     <td><img src="https://www.vectorlogo.zone/logos/heroku/heroku-card.png" alt="alt text" ></td>
-    <td><img src="https://gigaom.com/wp-content/uploads/sites/1/2012/07/postgres-mac-icon.jpg" alt="alt text"></td> 
+    <td><img src="https://gigaom.com/wp-content/uploads/sites/1/2012/07/postgres-mac-icon.jpg" alt="alt text" width="75%" height="75%"></td> 
   </tr>
 <tc>
 </table>
