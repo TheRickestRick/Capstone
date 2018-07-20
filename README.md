@@ -37,6 +37,7 @@ The project was built over a two week timeline, and there were a number of chall
 
 <img src="https://gigaom.com/wp-content/uploads/sites/1/2012/07/postgres-mac-icon.jpg" alt="alt text" width="25%" height="25%">
 </p>
+
 ## How is works
 
 Promoters create accounts and sign in. This will make an HTTP request to my server which will either create the user if they don't already exist, and then log in the user to the main dashboard page. A user tokenis stored in local storage to recognize the user, and make other HTTP requests in relation to that users account.
