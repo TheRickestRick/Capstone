@@ -40,19 +40,23 @@ The project was built over a two week timeline, and there were a number of chall
 ## How it works
 
 Promoters create accounts and sign in. This will make an HTTP request to my server which will either create the user if they don't already exist, and then log in the user to the main dashboard page. A user tokenis stored in local storage to recognize the user, and make other HTTP requests in relation to that users account.
------------------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------------
 <img src="https://github.com/TheRickestRick/Capstone/blob/master/ScreenShots/Screen%20Shot%202018-07-16%20at%203.26.01%20PM.png" alt="alt text">
 
 A user can then fill out a campaign form, and my app makes a request to the server to create the campaign. The campaign will then be added to the database with that users ID attached to it. When the user is logged in my controller will pull all campaigns from that users account and populate their dashboard.
+
 ------------------------------------------------------------------------------------------------------------------------------
 <img src="https://github.com/TheRickestRick/Capstone/blob/master/ScreenShots/Screen%20Shot%202018-07-16%20at%203.35.52%20PM.png" alt="alt text">
 
 The share widget code is added to the promoters website, and when clicked redirects you to the influencer side. The script tag that a promoter adds to their website will allow the share button to call a function in my code that will open up the URL for the part of my site meant for social influencers to visit, and find active campaigns.
------------------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------------
 <img src="https://github.com/TheRickestRick/Capstone/blob/master/ScreenShots/Screen%20Shot%202018-07-16%20at%203.40.39%20PM.png" alt="alt text" width="50%" height="50%">
 
 Influencers activate campaigns, and share their personalized links across the web. These links are specific to a user, and will hit my server before redirecting to the campaign specified URL. When the link hits my server it will record the visit to my site, and update the respective tables in the database.
------------------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------------
 <img src="https://github.com/TheRickestRick/Capstone/blob/master/ScreenShots/Screen%20Shot%202018-07-16%20at%203.39.35%20PM.png" alt="alt text">
 
 When traffic passes through the link the influencer gains points for each click they drive! My idea is that these points could be redeemed for cash or other things of value.
