@@ -25,13 +25,13 @@ The project was built over a two week timeline, and there were a number of chall
 ## Built With
 <table>
    <tr>
-    <th><img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="alt text" width="45%"></th>
-    <th><img src="https://knexjs.org/assets/images/knex.png" alt="alt text" width="45%"></th> 
-    <th><img src="https://amandeepmittal.gallerycdn.vsassets.io/extensions/amandeepmittal/expressjs/2.0.0/1509881293872/Microsoft.VisualStudio.Services.Icons.Default" alt="alt text" width="45%">
+    <th><img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="alt text"></th>
+    <th><img src="https://knexjs.org/assets/images/knex.png" alt="alt text"></th> 
+    <th><img src="https://amandeepmittal.gallerycdn.vsassets.io/extensions/amandeepmittal/expressjs/2.0.0/1509881293872/Microsoft.VisualStudio.Services.Icons.Default" alt="alt text">
     </th>
   </tr>
   <tr>
-    <td><img src="https://www.vectorlogo.zone/logos/heroku/heroku-card.png" alt="alt text" width="45%"></td>
+    <td><img src="https://www.vectorlogo.zone/logos/heroku/heroku-card.png" alt="alt text" ></td>
     <td><img src="https://gigaom.com/wp-content/uploads/sites/1/2012/07/postgres-mac-icon.jpg" alt="alt text" width="45%"></td> 
   </tr>
 <tc>
