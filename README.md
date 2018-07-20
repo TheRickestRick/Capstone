@@ -1,7 +1,8 @@
 # Vyrl
 Click on the image to watch the video demo! 
 
-<iframe src="https://youtu.be/xoNnIZTmAKk"></iframe>
+
+[![asciicast](https://asciinema.org/a/42383.png)](https://youtu.be/xoNnIZTmAKk)
 
 
 ## Background
