@@ -24,9 +24,9 @@ The project was built over a two week timeline, and there were a number of chall
 
 ## Built With
 <table>
-<th>
+<tr>
 <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="alt text">
-</th>
+</tr>
 <th>
 <img src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png" alt="alt text">
 </th>
