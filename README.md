@@ -2,7 +2,7 @@
 Click on the image to watch the video demo! 
 
 
-[![asciicast](https://asciinema.org/a/42383.png)](https://youtu.be/xoNnIZTmAKk)
+[![YouTube Demo](https://github.com/TheRickestRick/Capstone/blob/master/ScreenShots/Screen%20Shot%202018-07-16%20at%203.39.35%20PM.png)](https://youtu.be/xoNnIZTmAKk)
 
 
 ## Background
