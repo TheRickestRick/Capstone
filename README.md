@@ -23,6 +23,7 @@ The project was built over a two week timeline, and there were a number of chall
  
 
 ## Built With
+<p align="center">
 
 <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="alt text" width="25%" height="25%">
 
@@ -33,7 +34,7 @@ The project was built over a two week timeline, and there were a number of chall
 <img src="https://amandeepmittal.gallerycdn.vsassets.io/extensions/amandeepmittal/expressjs/2.0.0/1509881293872/Microsoft.VisualStudio.Services.Icons.Default" alt="alt text" width="25%" height="25%">
 
 <img src="https://www.vectorlogo.zone/logos/heroku/heroku-card.png" alt="alt text" width="25%" height="25%">
-
+</p>
 ## How is works
 
 # Promoters create accounts and sign in.
