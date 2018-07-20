@@ -56,4 +56,4 @@ When traffic passes through the link the influencer gains points for each click 
 
 ## Authors
 
-* **Timothy Barnes** - [Github](https://github.com/TheRickestRick), [Personal Site]()
+* **Timothy Barnes** - [Github](https://github.com/TheRickestRick), [Personal Site](https://therickestrick.github.io/Portfolio/)
